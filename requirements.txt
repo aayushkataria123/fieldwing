@@ -1,0 +1,6 @@
+gradio
+opencv-python-headless
+numpy
+ai-edge-litert
+gTTS
+requests
