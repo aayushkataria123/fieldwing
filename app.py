@@ -23,9 +23,9 @@ K = len(CLASS_NAMES)
 HEALTHY = next(i for i, c in enumerate(CLASS_NAMES) if "health" in c.lower())
 PRETTY = {i: c.replace("_", " ") for i, c in enumerate(CLASS_NAMES)}
 
-MAX_SECONDS = 10        # only the first 10 s of an uploaded video is analysed (keeps the public demo fast)
-SAMPLE_FPS = 2          # model looks at the video this many times per second
-OUT_W_MAX = 960
+MAX_SECONDS = 30        # Allow up to 30 seconds of video
+SAMPLE_FPS = 1          # Check 1 frame per second (cuts analysis time in half)
+OUT_W_MAX = 640         # Scale down video width (cuts frame processing time by 50%+)
 MIN_GREEN = 0.25
 SMOOTH = 3
 
