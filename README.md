@@ -17,4 +17,4 @@ farmer's language, with voice.
 Model: MobileNetV2 (TFLite, quantized) fine-tuned on the "Corn or Maize Leaf Disease Dataset"
 (derived from PlantVillage and PlantDoc). 4 classes: Blight, Common Rust, Gray Leaf Spot, Healthy.
 
-**Prototype - AI suggestions only, not a diagnosis. Always confirm treatment with a local agriculture officer (KVK).**
+**Prototype - AI suggestions only, not a diagnosis. Always confirm treatment with a local agriculture officer (KVK) .**
